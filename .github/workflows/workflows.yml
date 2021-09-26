@@ -20,5 +20,5 @@ jobs:
 
       - name: Deploy
           run: git config --global user.name Julio-Freitas
-          run:   git config --global user.email julio.clf31@gmail.com
-          run:  npm run deploy
+          run: git config --global user.email julio.clf31@gmail.com
+          run: npm run deploy
