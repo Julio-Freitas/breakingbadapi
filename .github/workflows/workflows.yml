@@ -1,8 +1,7 @@
 name: Breaking Bad
 on:
   push:
-    branch:
-      - "main"
+    branches: [main]
 
 jobs:
   build:
@@ -14,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       - name: Install  and build
         run: npm install && npm run build
