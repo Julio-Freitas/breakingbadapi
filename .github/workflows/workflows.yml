@@ -23,7 +23,7 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN}}
+          deploy_key: ${{ secrets.KEY_DEP_GH}}
           publish_branch: gh-pages
           publish_dir: ./dist
           allow_empty_commit: true
