@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3da2381a3430428158dd221ee7cb26aa",
+    "revision": "c6ad739e120989f96eef1177fc360b43",
     "url": "/breakingbadapi/index.html"
   },
   {
-    "revision": "6b1dabace18c95b92d17",
+    "revision": "d7c43e8130a5e4f5c1c6",
     "url": "/breakingbadapi/static/css/main.906d035d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/breakingbadapi/static/js/2.46b204a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6b1dabace18c95b92d17",
-    "url": "/breakingbadapi/static/js/main.fab62a3f.chunk.js"
+    "revision": "d7c43e8130a5e4f5c1c6",
+    "url": "/breakingbadapi/static/js/main.d9ce43f4.chunk.js"
   },
   {
     "revision": "c55dca291fbcf06689ca",
