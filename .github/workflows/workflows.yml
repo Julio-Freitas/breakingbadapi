@@ -21,9 +21,9 @@ jobs:
         run: npm install && npm run build
 
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          deploy_key: ${{ secrets.KEY_DEP_GH}}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN}}
           publish_branch: gh-pages
-          publish_dir: ./public
+          publish_dir: ./dist
           allow_empty_commit: true
