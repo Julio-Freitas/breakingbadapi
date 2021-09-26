@@ -8,7 +8,7 @@ const ListEpisodes = ({ listEspisodes, viewSeason }) => {
     const { air_date, characters, episode, season, series, title } = item;
     if (viewSeason === Number(season)) {
       return (
-        <Styled.ContainerContent>
+        <Styled.ContainerContent key={`${title}-${season}`}>
           <Styled.TextItem>
             <span>Título:</span> {title}
           </Styled.TextItem>

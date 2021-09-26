@@ -31,6 +31,7 @@ const Episodes = ({ episodes }) => {
             <Styled.MoreSeason
               onClick={() => setSeasonCurrent(Number(item.split('-')[1]))}
               selected={seasonCurrent === index + 1}
+              key={`${index}`}
             >
               {index + 1}
             </Styled.MoreSeason>
@@ -38,7 +39,6 @@ const Episodes = ({ episodes }) => {
         </Styled.MoreSeasonContainer>
 
         <Styled.ContainerEpisodios>
-          {console.log(season)}
           <ListEpisodes listEspisodes={episodes} viewSeason={seasonCurrent} />
         </Styled.ContainerEpisodios>
       </>
