@@ -19,4 +19,7 @@ jobs:
         run: npm install && npm run build
 
       - name: Deploy
-        run: npm run deploy
+         run: |
+            git config --global user.name Julio-Freitas
+            git config --global user.email julio.clf31@gmail.com
+            npm run deploy
