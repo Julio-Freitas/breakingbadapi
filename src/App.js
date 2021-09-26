@@ -15,7 +15,7 @@ function App() {
   const optionsArr = [
     {
       value: 'Home',
-      path: '/',
+      path: '/breakingbadapi',
       selected: false,
     },
     {
