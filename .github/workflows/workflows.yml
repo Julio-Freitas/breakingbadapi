@@ -24,6 +24,6 @@ jobs:
           git config --global user.email $user_email
           npm run deploy
         env:
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name:  ${{ secrets.ACTIONS_USER_NAME}}
+          user_email:  ${{ secrets.ACTIONS_USER_EMAIL }}
           repository: ${{ github.repository }}
